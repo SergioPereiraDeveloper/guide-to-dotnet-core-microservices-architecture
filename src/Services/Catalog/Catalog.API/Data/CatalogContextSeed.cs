@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Catalog.API.Data
 {
-    public class CatalogueContextSeed
+    public class CatalogContextSeed
     {
         public static void SeedData(IMongoCollection<Product> products)
         {

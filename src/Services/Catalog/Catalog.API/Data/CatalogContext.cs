@@ -16,7 +16,7 @@ namespace Catalog.API.Data
 
             Products = database.GetCollection<Product>(configuration.GetValue<string>("DatabaseSettings:CollectionName"));
             
-            CatalogueContextSeed.SeedData(Products);
+            CatalogContextSeed.SeedData(Products);
         }
     }
 }
